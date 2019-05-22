@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SendData
 {
-    class user
+    public class user
     {
         string name;
         int score;
@@ -20,7 +20,7 @@ namespace SendData
 
         public override string ToString()
         {
-            return name + "\t" + date + "\t" + score;
+            return name + " " + date + " " + score;
         }
 
     }

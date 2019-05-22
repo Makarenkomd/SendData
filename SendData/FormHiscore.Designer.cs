@@ -51,6 +51,7 @@
             this.buttonOk.TabIndex = 1;
             this.buttonOk.Text = "Ок";
             this.buttonOk.UseVisualStyleBackColor = true;
+            this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
             // FormHiscore
             // 

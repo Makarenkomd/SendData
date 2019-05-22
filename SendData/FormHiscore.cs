@@ -15,5 +15,15 @@ namespace SendData
         {
             InitializeComponent();
         }
+
+        public FormHiscore(user u):this()
+        {
+            labelResult.Text = u.ToString();
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

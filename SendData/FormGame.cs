@@ -30,6 +30,10 @@ namespace SendData
 
         private void FormGame_FormClosing(object sender, FormClosingEventArgs e)
         {
+            user newUser = new user(userName, Convert.ToInt32(labelScore.Text));
+            FormHiscore f = new FormHiscore(newUser);
+            f.ShowDialog();
+
             if (MessageBox.Show("Вы точно закончить игру?", "Предупреждение", MessageBoxButtons.YesNo) == DialogResult.No)
                 {
                     e.Cancel = true;
