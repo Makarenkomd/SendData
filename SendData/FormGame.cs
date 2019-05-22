@@ -17,7 +17,7 @@ namespace SendData
             InitializeComponent();
         }
 
-        public FormGame(string name)
+        public FormGame(string name) : this()
         {
             userName = name;
             this.Text = "Пользователь: " + userName;
