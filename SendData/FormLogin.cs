@@ -18,7 +18,7 @@ namespace SendData
 
         private void buttonEnterLogin_Click(object sender, EventArgs e)
         {
-            FormGame f = new FormGame();
+            FormGame f = new FormGame("крокодил");
             //f.Show();
             this.Hide();
             f.ShowDialog();

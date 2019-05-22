@@ -11,9 +11,16 @@ namespace SendData
 {
     public partial class FormGame : Form
     {
+        string userName;
         public FormGame()
         {
             InitializeComponent();
+        }
+
+        public FormGame(string name)
+        {
+            userName = name;
+            this.Text = "Пользователь: " + userName;
         }
 
         private void buttonInc_Click(object sender, EventArgs e)
