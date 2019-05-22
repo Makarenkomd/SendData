@@ -15,5 +15,16 @@ namespace SendData
         {
             InitializeComponent();
         }
+
+        private void buttonEnterLogin_Click(object sender, EventArgs e)
+        {
+            FormGame f = new FormGame();
+            //f.Show();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+            
+
+        }
     }
 }

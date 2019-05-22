@@ -41,6 +41,7 @@
             this.buttonEnterLogin.TabIndex = 1;
             this.buttonEnterLogin.Text = "войти";
             this.buttonEnterLogin.UseVisualStyleBackColor = true;
+            this.buttonEnterLogin.Click += new System.EventHandler(this.buttonEnterLogin_Click);
             // 
             // textBoxLogin
             // 

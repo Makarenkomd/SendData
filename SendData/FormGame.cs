@@ -15,5 +15,10 @@ namespace SendData
         {
             InitializeComponent();
         }
+
+        private void buttonInc_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

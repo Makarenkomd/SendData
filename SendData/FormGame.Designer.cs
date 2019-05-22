@@ -41,6 +41,7 @@
             this.buttonInc.TabIndex = 0;
             this.buttonInc.Text = "+1";
             this.buttonInc.UseVisualStyleBackColor = true;
+            this.buttonInc.Click += new System.EventHandler(this.buttonInc_Click);
             // 
             // labelScore
             // 
