@@ -62,6 +62,7 @@
             this.Controls.Add(this.buttonInc);
             this.Name = "FormGame";
             this.Text = "FormGame";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormGame_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

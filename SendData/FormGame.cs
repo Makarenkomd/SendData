@@ -25,7 +25,15 @@ namespace SendData
 
         private void buttonInc_Click(object sender, EventArgs e)
         {
+            labelScore.Text = (Convert.ToInt32(labelScore.Text) + 1).ToString();
+        }
 
+        private void FormGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Вы точно закончить игру?", "Предупреждение", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
         }
     }
 }
